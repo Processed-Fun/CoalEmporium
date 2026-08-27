@@ -149,6 +149,33 @@ a { color: var(--navy); }
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
+.hero-gallery .hero-wide { grid-column: 1 / -1; }
+.hero-media { position: relative; }
+.hero-media .img-title {
+  position: absolute;
+  top: 3.5%;
+  left: 29%;
+  text-align: left;
+  color: var(--white);
+}
+.img-title .img-title-main {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: clamp(20px, 3.4vw, 46px);
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 12px rgba(20, 16, 10, 0.45), 0 0 2px rgba(20, 16, 10, 0.3);
+}
+.img-title .img-title-sub {
+  margin-top: 0.45em;
+  font-size: clamp(9px, 1.15vw, 15px);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.34em;
+  color: #eee2c6;
+  text-shadow: 0 1px 8px rgba(20, 16, 10, 0.5);
+}
 .hero-gallery figure {
   background: #2a3b55;
   border-radius: var(--radius);
