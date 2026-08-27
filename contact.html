@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Orders | Coal Emporium</title>
+  <meta name="description" content="Start a gift coal order or reach the Coal Emporium Naughtiness Assessment Hotline. Consultants available Monday through Saturday.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="utility-bar">
+    <div class="wrap">
+      <span>Naughtiness Assessment Hotline: 1-800-555-0142</span>
+      <span>Order by December 18 for guaranteed Christmas morning delivery</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-name">COAL EMPORIUM</span>
+        <span class="brand-tag">Gift Coal &middot; Est. 1987</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="packages.html">Gift Packages</a>
+        <a href="coal.html">Our Coal</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html" class="nav-cta">Start an Order</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+      <h1>Start an order</h1>
+      <p>Tell us about the recipient and the year they had. A coal consultant will follow up with a recommendation, a quote, and no judgment of you whatsoever. Our judgment is reserved for the recipient.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="contact-cols">
+        <form id="contact-form" class="form-grid" novalidate>
+          <div class="form-field">
+            <label for="field-name">Your name</label>
+            <input type="text" id="field-name" name="name" required autocomplete="name">
+          </div>
+          <div class="form-field">
+            <label for="field-email">Email address</label>
+            <input type="email" id="field-email" name="email" required autocomplete="email">
+          </div>
+          <div class="form-field">
+            <label for="field-relationship">Your relationship to the recipient</label>
+            <select id="field-relationship" name="relationship">
+              <option>Parent</option>
+              <option>Spouse</option>
+              <option>Grandparent</option>
+              <option>Sibling</option>
+              <option>In-law</option>
+              <option>Coworker</option>
+              <option>Other (explain below)</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="field-level">Assessed naughtiness level <span class="hint">(1 to 10)</span></label>
+            <select id="field-level" name="level">
+              <option value="1">1: Isolated incident</option>
+              <option value="2">2: Minor attitude</option>
+              <option value="3">3: Developing pattern</option>
+              <option value="4" selected>4: Established pattern</option>
+              <option value="5">5: Multiple incidents</option>
+              <option value="6">6: Coordinated behavior</option>
+              <option value="7">7: School was involved</option>
+              <option value="8">8: Authorities were nearly involved</option>
+              <option value="9">9: We should talk by phone</option>
+              <option value="10">10: You know what they did</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="field-package">Package of interest</label>
+            <select id="field-package" name="package">
+              <option>Not sure yet</option>
+              <option>The Warning Shot (6 oz)</option>
+              <option>The Standard Stocking (2 lbs)</option>
+              <option>The Household Correction Bundle (10 lbs)</option>
+              <option>The Full Reckoning (40 lbs)</option>
+              <option>The Anniversary Lump (12 oz, polished)</option>
+              <option>The Executive Pallet (half ton)</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="field-grade">Preferred coal grade</label>
+            <select id="field-grade" name="grade">
+              <option>Consultant's discretion</option>
+              <option>Economy Lignite</option>
+              <option>Classic Bituminous</option>
+              <option>Premium Anthracite</option>
+              <option>Heirloom Reserve (allocation request)</option>
+            </select>
+          </div>
+          <div class="form-field full">
+            <label for="field-message">Describe the behavior <span class="hint">(dates and specifics help our assessment)</span></label>
+            <textarea id="field-message" name="message" placeholder="Example: On November 3rd he microwaved his sister's retainer to 'see what would happen.' He knew what would happen."></textarea>
+          </div>
+          <p class="form-note">Submissions are reviewed in the order received. During December, allow two business days. Nothing you write here will surprise us.</p>
+          <div class="form-success" id="form-success" role="status"></div>
+          <div class="form-field full">
+            <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+          </div>
+        </form>
+
+        <aside>
+          <div class="info-box">
+            <h3>Naughtiness Assessment Hotline</h3>
+            <p>1-800-555-0142<br>Monday to Saturday, 8am to 8pm ET<br>Extended hours December 1 to 24</p>
+          </div>
+          <div class="info-box">
+            <h3>Headquarters &amp; fulfillment</h3>
+            <p>Coal Emporium, Inc.<br>4 Culm Bank Road<br>Scranton, PA 18505</p>
+            <p>Facility tours available January through October. December visitors will be put to work.</p>
+          </div>
+          <div class="info-box">
+            <h3>Email</h3>
+            <p>orders@coalemporium.example<br>careers@coalemporium.example<br>press@coalemporium.example</p>
+          </div>
+          <div class="info-box">
+            <h3>Freight orders</h3>
+            <p>Executive Pallet and multi-pallet orders are quoted individually. Have the delivery address, gate codes, and your reasons ready.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-cols">
+        <div>
+          <div class="footer-brand">COAL EMPORIUM</div>
+          <p>America's trusted supplier of gift coal since 1987. Family owned and operated in Scranton, Pennsylvania.</p>
+        </div>
+        <div>
+          <h4>Products</h4>
+          <ul>
+            <li><a href="packages.html">Gift Packages</a></li>
+            <li><a href="coal.html">Coal Grades</a></li>
+            <li><a href="packages.html#adult-gifting">Adult Gifting</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>1-800-555-0142</li>
+            <li>orders@coalemporium.example</li>
+            <li>4 Culm Bank Road<br>Scranton, PA 18505</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <p>&copy; <span id="year"></span> Coal Emporium, Inc. All rights reserved. Coal Emporium is a fictional company and this website is a parody. No coal will be shipped to anyone, deserving or otherwise. Form submissions are not transmitted or stored.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
