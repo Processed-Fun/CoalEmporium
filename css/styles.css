@@ -149,6 +149,7 @@ a { color: var(--navy); }
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
+.hero-gallery .hero-wide { grid-column: 1 / -1; }
 .hero-gallery figure {
   background: #2a3b55;
   border-radius: var(--radius);
