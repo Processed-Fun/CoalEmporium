@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift Packages | Coal Emporium</title>
+  <meta name="description" content="Coal gift packages for every level of naughtiness, from a single lump to a half ton pallet. Compare weights, presentation formats, and pricing.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="utility-bar">
+    <div class="wrap">
+      <span>Naughtiness Assessment Hotline: 1-800-555-0142</span>
+      <span>Order by December 18 for guaranteed Christmas morning delivery</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-name">COAL EMPORIUM</span>
+        <span class="brand-tag">Gift Coal &middot; Est. 1987</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="packages.html">Gift Packages</a>
+        <a href="coal.html">Our Coal</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html" class="nav-cta">Start an Order</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Gift Packages</div>
+      <h1>Gift packages</h1>
+      <p>Every package is weighed twice, cleaned of dust, and shipped in unmarked outer packaging. Select by naughtiness level, or use the recommender below if you are unsure.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Find the right weight</h2>
+      <p class="section-intro">Rate the recipient's behavior this year on a scale of 1 to 10. Our recommendation engine applies the same standards our phone consultants use.</p>
+      <div class="recommender">
+        <h3>Naughtiness recommender</h3>
+        <p>1 is a single incident of talking back. 10 requires no explanation. You were there.</p>
+        <div class="rec-row">
+          <input type="range" id="naughtiness-slider" min="1" max="10" value="4" step="1" aria-label="Naughtiness level from 1 to 10">
+          <div class="rec-value" id="naughtiness-value">4</div>
+        </div>
+        <div class="rec-result" id="recommender-result"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="wrap">
+      <h2>Children's packages</h2>
+      <p class="section-intro">Sized for stockings and under-tree placement. All children's packages ship with lumps under three inches, individually wrapped in white tissue paper.</p>
+      <div class="card-grid">
+        <div class="card">
+          <img src="images/pkg-warning-shot.jpg" alt="A single lump of coal in a small kraft gift box with tissue paper">
+          <div class="card-body">
+            <div class="card-meta">Naughtiness level 1 to 2</div>
+            <h3>The Warning Shot</h3>
+            <div class="meter"><span class="on"></span><span class="on"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            <p class="meter-label">Minor infractions</p>
+            <p>One hand selected lump, approximately six ounces, presented in a kraft gift box with tissue paper. Understated, unambiguous. Many families keep the box for future years, though most never need it twice.</p>
+            <p><strong>Suitable for:</strong> talking back, bedtime resistance, feeding vegetables to the dog.</p>
+            <div class="card-price">$12.99 <span>/ 6 oz</span></div>
+            <div class="card-actions"><a class="btn btn-quiet" href="contact.html">Order This Package</a></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/pkg-stocking.jpg" alt="A red drawstring sack with lumps of coal beside a Christmas stocking">
+          <div class="card-body">
+            <span class="badge">Best Seller</span>
+            <div class="card-meta">Naughtiness level 3 to 4</div>
+            <h3>The Standard Stocking</h3>
+            <div class="meter"><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            <p class="meter-label">Established pattern</p>
+            <p>Two pounds of Classic Bituminous in a red drawstring sack, sized to fill a standard stocking to the cuff. Our flagship product since 1987 and the industry reference for stocking coal.</p>
+            <p><strong>Suitable for:</strong> sibling violence, grade concealment, repeated screen time violations.</p>
+            <div class="card-price">$24.99 <span>/ 2 lbs</span></div>
+            <div class="card-actions"><a class="btn btn-quiet" href="contact.html">Order This Package</a></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/pkg-family.jpg" alt="Four small labeled burlap sacks of coal arranged in a row">
+          <div class="card-body">
+            <div class="card-meta">Naughtiness level 5 to 6</div>
+            <h3>The Household Correction Bundle</h3>
+            <div class="meter"><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span><span></span><span></span></div>
+            <p class="meter-label">Multiple recipients or incidents</p>
+            <p>Ten pounds divided into four burlap sacks, each with a blank name tag. Distribute evenly among children, or weight the allocation toward the instigator. Includes a household ledger for documenting the year's incidents.</p>
+            <p><strong>Suitable for:</strong> coordinated sibling operations, anything involving the word "flooded."</p>
+            <div class="card-price">$59.99 <span>/ 10 lbs</span></div>
+            <div class="card-actions"><a class="btn btn-quiet" href="contact.html">Order This Package</a></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/pkg-reckoning.jpg" alt="A wooden crate filled with coal, with a sealed envelope resting on top">
+          <div class="card-body">
+            <div class="card-meta">Naughtiness level 7 to 8</div>
+            <h3>The Full Reckoning</h3>
+            <div class="meter"><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span></div>
+            <p class="meter-label">Sustained, documented naughtiness</p>
+            <p>A forty pound pine crate, delivered to the base of the tree. Includes a personalized letter of disappointment on Coal Emporium letterhead, reviewed by our editorial staff and signed by a duty manager.</p>
+            <p><strong>Suitable for:</strong> incidents requiring a meeting with the principal, the vice principal, or both.</p>
+            <div class="card-price">$149.99 <span>/ 40 lbs</span></div>
+            <div class="card-actions"><a class="btn btn-quiet" href="contact.html">Order This Package</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="adult-gifting">
+    <div class="wrap">
+      <h2>Adult gifting</h2>
+      <p class="section-intro">Naughtiness does not end at eighteen. Our adult line serves spouses, in-laws, adult children, and coworkers. Recipients must be able to sign for delivery.</p>
+      <div class="card-grid cols-2">
+        <div class="card">
+          <img src="images/pkg-spousal.jpg" alt="A single polished lump of coal in a hinged gift box, presented like jewelry">
+          <div class="card-body">
+            <div class="card-meta">Spousal line</div>
+            <h3>The Anniversary Lump</h3>
+            <p>A single polished Premium Anthracite lump in a hinged presentation box of the type normally used for jewelry. The unboxing experience is deliberate: anticipation, then coal. Popular for forgotten anniversaries, and as a response to one.</p>
+            <p><strong>Suitable for:</strong> "I told you about this three times," golf-related absences, the thermostat dispute.</p>
+            <div class="card-price">$79.99 <span>/ 12 oz, polished</span></div>
+            <div class="card-actions"><a class="btn btn-quiet" href="contact.html">Order This Package</a></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/pkg-pallet.jpg" alt="A shrink wrapped pallet stacked with sacks of coal in a warehouse">
+          <div class="card-body">
+            <span class="badge badge-red">Freight Delivery</span>
+            <div class="card-meta">Naughtiness level 9 to 10</div>
+            <h3>The Executive Pallet</h3>
+            <p>One thousand pounds of coal, shrink wrapped and delivered by forklift to the recipient's driveway. Our drivers are trained to maintain eye contact during the drop. Placement within fifteen feet of the front door is guaranteed where local ordinances permit.</p>
+            <p><strong>Suitable for:</strong> brothers in law, business partners, whoever organized the family group chat.</p>
+            <div class="card-price">$899.00 <span>/ half ton</span></div>
+            <div class="card-actions"><a class="btn btn-quiet" href="contact.html">Request Freight Quote</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="wrap">
+      <h2>Package comparison</h2>
+      <p class="section-intro">All weights are certified at our Scranton facility. Coal grade is selected separately at checkout; prices shown reflect Classic Bituminous.</p>
+      <div class="table-scroll">
+        <table class="spec">
+          <thead>
+            <tr>
+              <th>Package</th>
+              <th>Weight</th>
+              <th>Naughtiness level</th>
+              <th>Presentation</th>
+              <th>Includes</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The Warning Shot</td>
+              <td>6 oz</td>
+              <td>1 to 2</td>
+              <td>Kraft gift box</td>
+              <td>Tissue wrap</td>
+              <td>$12.99</td>
+            </tr>
+            <tr>
+              <td>The Standard Stocking</td>
+              <td>2 lbs</td>
+              <td>3 to 4</td>
+              <td>Red drawstring sack</td>
+              <td>Tissue wrap, gift tag</td>
+              <td>$24.99</td>
+            </tr>
+            <tr>
+              <td>The Household Correction Bundle</td>
+              <td>10 lbs</td>
+              <td>5 to 6</td>
+              <td>Four burlap sacks</td>
+              <td>Name tags, incident ledger</td>
+              <td>$59.99</td>
+            </tr>
+            <tr>
+              <td>The Full Reckoning</td>
+              <td>40 lbs</td>
+              <td>7 to 8</td>
+              <td>Pine crate</td>
+              <td>Letter of disappointment</td>
+              <td>$149.99</td>
+            </tr>
+            <tr>
+              <td>The Anniversary Lump</td>
+              <td>12 oz</td>
+              <td>Adult, situational</td>
+              <td>Hinged presentation box</td>
+              <td>Polishing, certificate</td>
+              <td>$79.99</td>
+            </tr>
+            <tr>
+              <td>The Executive Pallet</td>
+              <td>1,000 lbs</td>
+              <td>9 to 10</td>
+              <td>Shrink wrapped pallet</td>
+              <td>Forklift delivery, eye contact</td>
+              <td>$899.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Optional add-ons</h2>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-body">
+            <h3>Certificate of Naughtiness</h3>
+            <p>A framed certificate documenting the recipient's name, offense category, and assessed level. Printed on archival paper. Many families display it near the tree through Epiphany.</p>
+            <div class="card-price">$14.99</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>Compliance Letter from the North Pole Liaison Office</h3>
+            <p>A formal notice on official looking letterhead confirming that the recipient's file has been reviewed and the coal allocation approved. Includes a case number for the recipient's records.</p>
+            <div class="card-price">$9.99</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>January Redemption Voucher</h3>
+            <p>A printed voucher the recipient can exchange for one real gift, contingent on thirty consecutive days of improved behavior. Redemption rates hover near 40 percent. We simply report the data.</p>
+            <div class="card-price">$4.99</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <div>
+        <h2>Not sure which package fits?</h2>
+        <p>Our coal consultants have heard everything. Nothing you describe will surprise them.</p>
+      </div>
+      <a class="btn btn-primary" href="contact.html">Talk to a Consultant</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-cols">
+        <div>
+          <div class="footer-brand">COAL EMPORIUM</div>
+          <p>America's trusted supplier of gift coal since 1987. Family owned and operated in Scranton, Pennsylvania.</p>
+        </div>
+        <div>
+          <h4>Products</h4>
+          <ul>
+            <li><a href="packages.html">Gift Packages</a></li>
+            <li><a href="coal.html">Coal Grades</a></li>
+            <li><a href="packages.html#adult-gifting">Adult Gifting</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>1-800-555-0142</li>
+            <li>orders@coalemporium.example</li>
+            <li>4 Culm Bank Road<br>Scranton, PA 18505</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <p>&copy; <span id="year"></span> Coal Emporium, Inc. All rights reserved. Coal Emporium is a fictional company and this website is a parody. No coal will be shipped to anyone, deserving or otherwise.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
